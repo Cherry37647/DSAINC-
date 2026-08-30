@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+    cout <<"hey the girlly pop"
     //int, long, long long,float, double
     //string, getline
     //char
