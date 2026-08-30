@@ -88,7 +88,7 @@ int nestedloop7(int n){
 
 int main(){
     int n;
-    cout<<"enter valueof integer type: ";
+    cout<<"enter value of integer type: ";
     cin>>n;
     nestedloop();
     nestedloop2();
