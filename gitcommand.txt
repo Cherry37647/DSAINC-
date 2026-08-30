@@ -1,3 +1,44 @@
+//git command run in terminal of vs code
+
+//to check git version
+git --version
+
+//clone-Cloning a repository on your local machine
+//clone when move from remote(GitHub) to local (your pc /vscode)
+//status-displays the status of the code
+git clone <link>
+git status
+
+//change the directory
+cd <folder name>
+//to come outer directory
+cd ..
+//list all file in the directory (folder)
+ls
+
+
+//when you modified any file in vs then do two step 1. add and 2. commit 3. push
+git add <file name>
+//add all file
+git add .
+git commit -m "message"
+
+//push -upload local repo content to remote repo
+git push -u origin main
+git push
+
+git push origin main
+
+
+//-------------------------------------
+// ALL GIT COMMAND FOR LOCAL(PC/VS CODE) TO REMOTE(GITHUB
+//----------------------------------------------
+
+//create a directory 
+mkdir <directory name>
+cd <directory name>
+
+//init-used to create a new git repo
 git init 
 git status
 git add <file name>
@@ -5,8 +46,33 @@ git add .
 git status
 git commit -m "message"
 
+create a new repository in git hub
+//
 git remote add origin <link>
 git remote -v
+
+//GitHub branch
+//know the branch
+git branch 
+->*master
+//to rename default git branch
+git branch -M main
+// to create new branch
+git branch -b <branch name>
+//to delete branch
+git branch -d <branch name>
+//to move from one branch to another 
+git checkout <moving branch name>
+
+//----------------------------
+//workflow
+//--------------------------
+GitHub repo (create new repo in GitHub)
+clone (command in vs terminal- git clone <link>
+changes in file of vscode 
+add (git add .)
+commit (git commit -m "message")
+push (git push -u origin main)or (git push)
 
 //remote(GitHub) to local(pc)
 git clone link
