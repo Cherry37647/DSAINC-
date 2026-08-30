@@ -1,0 +1,22 @@
+git init 
+git status
+git add <file name>
+git add .
+git status
+git commit -m "message"
+
+git remote add origin <link>
+git remote -v
+
+//remote(GitHub) to local(pc)
+git clone link
+cd <changing directory name>
+cd ..  (outside the folder)
+
+
+//details 
+https://github.com/HackIndiaXYZ/hackindia-spark-6-ncr-central-region-innovatrix
+github password             Suman4Github
+cherry#123a
+cherrysuman44@gmail.com password
+git clone https://github.com/HackIndiaXYZ/hackindia-spark-6-ncr-central-region-innovatrix.git
