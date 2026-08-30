@@ -1,0 +1,28 @@
+//GitHub branch
+//know the branch
+git branch 
+->*master
+
+//to rename default git branch
+git branch -M main
+
+// to create new branch
+git branch -b <branch name>
+
+//to delete branch
+git branch -d <branch name>
+
+//to move from one branch to another 
+git checkout <moving branch name>
+
+//to know diff
+git diff <branch name>
+
+//merge new branch with main branch
+way1. git merge <branch name>
+way2. using pull request PR - lets yoy tell others about changes you have pushed to a branch in a repo on GitHub
+ in git hub click pull request 
+
+//from GitHub to vscode
+git pull origin main
+
