@@ -217,16 +217,30 @@ void explainmultiset(){
     ms.insert(8);//{7,8}
     ms.insert(3);//{3,7,8}
     ms.insert(7);//{3,7,7,8}
-    cout<<ms.erase(4)<<endl;
-    cout<<ms.empty()<<endl;
+    cout<<ms.erase(4)<<endl;//false-0
+    cout<<ms.empty()<<endl;//false-0 
     auto it =ms.find(4);
-    cout<<*it<<endl;
-    ms.erase(ms.find(8));
+    cout<<*it<<endl;//false print index after element
+    ms.erase(ms.find(8));//{3,7,7}
     int cnt =ms.count(7);
-    cout<<cnt<<endl;
+    cout<<cnt<<endl;//2
     ms.erase(ms.find(7));
-    int cntt =ms.count(7);
+    int cntt =ms.count(7);//1
     cout<<cntt<<endl;
+}
+
+//unoerderset is unigue but not sorted which gives better complexity and lowerbound and upperbound function is not working
+ 
+
+//map
+void explainmap(){
+    map <int,int> mpp;
+    map<int , pair<int,int>> mpp;
+    map<pair <int,int>,int> mpp;
+    mpp.insert({2,4});
+    mpp.insert({2,4});
+
+
 }
 
 
