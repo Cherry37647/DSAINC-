@@ -5,7 +5,7 @@ int main() {
 
 //write a program takes input from user and print is he adult or not
 int age;
-cout <<"Enter age: "<<"\n";
+cout <<"Enter age: ";
 cin>>age;
 if(age>=18){
     cout<<"adult"<<"\n";
@@ -21,28 +21,28 @@ else{
 // 50 to 59-c
 // 60 to 79-b
 // 80 to 100-a
-// Ask user to enter marks and print the corresponding grade.
+// Ask user to enter marks and print the corresponding Grade.
 int m;
-cout<<"Enter your marks: "<<"\n";
+cout<<"Enter your marks: ";
 cin>>m;
 if(m>=80&&m<=100){
-    cout<<"grade:A";
-    
+    cout<<"Grade:A";
+ 
 }else 
  if(m>=60 && m<=79){
-cout<<"grade:B";
+cout<<"Grade:B";
 }else 
 if(m>=50 && m<=59){
-    cout<<"grade:C";
+    cout<<"Grade:C";
 }else 
 if(m>=45 && m<=49){
-    cout<<"grade:D";
+    cout<<"Grade:D";
 }else
  if(m>=25 && m<=44){
-    cout<<"grade:E";
+    cout<<"Grade:E";
 }else
 if ( m<=25){
-    cout<<"grade:F";
+    cout<<"Grade:F";
 }
 cout<<"\n";
 
