@@ -10,7 +10,9 @@ using namespace std;
 
 void explainpair(){
     pair <int,int>p={1,7};
+    //pair <int,int> p={2,6};
     cout<<p.first<<" "<<p.second<<endl;
+    //pair<int,int>
     pair <int , int > arr[]={{6,7},{5,8}};
     cout<<arr[0].first<<" "<<arr[1].second<<endl;
  
